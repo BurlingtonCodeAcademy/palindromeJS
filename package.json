@@ -1,0 +1,42 @@
+{
+  "name": "palindrome",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A basic template for instructors to base their workshops on.",
+  "main": "palindrome.js",
+  "scripts": {
+    "format": "prettier --write --ignore-unknown .",
+    "lint": "eslint .",
+    "cleanup": "npm run format && npm run lint",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BurlingtonCodeAcademy/palindromeJS"
+  },
+  "keywords": [
+    "workshop",
+    "javascript",
+    "strings"
+  ],
+  "author": {
+    "name": "GJ Critchlow"
+  },
+  "contributors": ["Matt Nolan"],
+  "license": "LicenseRef-LICENSE",
+  "bugs": {
+    "url": "https://github.com/BurlingtonCodeAcademy/palindromeJS/issues"
+  },
+  "homepage": "https://github.com/BurlingtonCodeAcademy/palindromeJS#readme",
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
+    "prettier": "2.5.0",
+    "pretty-quick": "^3.1.2"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
