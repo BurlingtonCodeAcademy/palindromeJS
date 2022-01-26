@@ -29,7 +29,7 @@ In this workshop we'll use two methods of accepting user input to the terminal. 
 
 The second method is using an Async function to prompt the user for an input and await their response. You will be provided with an "ask" function that you need not understand fully at this point, just know that it is used to take in the user input from the command line. Here is a general definition of async and await from the Mozilla Developer Network
 
-    > "An async function is a function declared with the async keyword, and the await keyword is permitted within them. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains." 
+"An async function is a function declared with the async keyword, and the await keyword is permitted within them. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains." 
 
 ### Additional Resources
 
